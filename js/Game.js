@@ -31,11 +31,11 @@ Game.prototype.init = function () {
         "ladder": "images/ladder.png",
         "block": "images/block.png",
         "block_fall": "images/block_fall.png",
-        "b1": "images/b1.png",
-        "b2": "images/b2.png",
-        "b3": "images/b3.png",
-        "b4": "images/b4.png",
-        "b5": "images/b5.png"
+        // "b1": "images/b1.png",
+        // "b2": "images/b2.png",
+        // "b3": "images/b3.png",
+        // "b4": "images/b4.png",
+        // "b5": "images/b5.png"
     }
     //图片加载时的等候界面
     var self = this;
