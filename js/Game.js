@@ -30,7 +30,7 @@ Game.prototype.init = function () {
         "2p": "images/2p.png",
         "ladder": "images/ladder.png",
         "block": "images/block.png",
-        "block_fall": "images/block_fall.png",
+        "block_fall": "images/block_fall.png"
         // "b1": "images/b1.png",
         // "b2": "images/b2.png",
         // "b3": "images/b3.png",
