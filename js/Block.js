@@ -108,12 +108,12 @@ Block.prototype.update = function (boolean1, boolean2, dad, i) {
     }
     if (this.x1 > 600){      
         clearInterval(game.timer);
-        alert("按A的赢了！");
+        alert("按S的赢了！\nPlayer Press S Win!");
         
     }
     if (this.x1 < 200){
         clearInterval(game.timer);
-        alert("按5的赢了！");
+        alert("按5的赢了！\nPlayer Press 5 Win!");
     }
     // if (this.x1 == 532 || this.x == 267) {
     //     this.dx = 0;
