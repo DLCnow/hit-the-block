@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            width: 1000px;
+            margin: 50px auto;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <canvas id="mycanvas" width="1000" height="800" tabindex="1"></canvas>
+    </div>
+    <audio src="./audio/bgm.mp3" id="bgm" autoplay loop></audio>
+    <audio src="./audio/p1.mp3" id="p1"></audio>
+    <audio src="./audio/p2.mp3" id="p2"></audio>
+    <audio src="./audio/boom.mp3" id="boom"></audio>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/underscore.js"></script>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Ladder.js"></script>
+    <script src="./js/P1.js"></script>
+    <script src="./js/P2.js"></script>
+    <script src="./js/Ball.js"></script>
+    <script src="./js/Block.js"></script>
+    <script src="./js/Power.js"></script>
+    <script src="./js/Boom.js"></script>
+    <script>
+        var game = new Game();
+    </script>
+</body>
+
+</html>
